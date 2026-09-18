@@ -1,6 +1,3 @@
-Android向けオープンソース（FOSS）アプリ「Icon Pack Inspector / Viewer」の `README.md` です。英語（EN）と日本語（JP）の両方を1つのファイルとして使える構成にしています。
-
-```markdown
 # Icon Pack Inspector / Exporter (FOSS)
 
 [English](#english) | [日本語](#japanese)
