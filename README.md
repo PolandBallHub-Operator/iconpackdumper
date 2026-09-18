@@ -21,20 +21,6 @@ An open-source (FOSS) Android utility app designed to detect installed icon pack
 * (Dynamic colors available on Android 12+)
 * Material Components for Android library (`com.google.android.material:material`)
 
-### Dependencies
-```groovy
-dependencies {
-    // Material Design 3 (XML)
-    implementation 'com.google.android.material:material:1.11.0'
-    
-    // Core AndroidX
-    implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-    implementation 'androidx.recyclerview:recyclerview:1.3.2'
-}
-
-```
-
 ---
 
 ## 日本語
