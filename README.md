@@ -1,4 +1,4 @@
-# Icon Pack Inspector / Exporter (FOSS)
+# iconpackdumper (FOSS)
 
 [English](#english) | [日本語](#japanese)
 
