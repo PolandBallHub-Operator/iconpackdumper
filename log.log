@@ -1,0 +1,86 @@
+--------- beginning of main
+10-13 01:33:06.712 24228 25556 I AndroidHostService: Hostネットワーク=Wi-Fi INTERNET=true VALIDATED=true
+10-13 01:33:06.720 24228 25557 I AndroidHostService: Starting local relay on 127.0.0.1:31416
+10-13 01:33:06.721 24228 25557 I Relay   : Relay server started
+10-13 01:33:06.721 24228 25556 I AndroidHostService: Relay startup latch released
+10-13 01:33:06.721 24228 25556 I AndroidHostService: Relay startup failure check passed
+10-13 01:33:06.721 24228 25556 I AndroidHostService: Relay self-test attempt 1/10
+10-13 01:33:06.723 24228 25556 W AndroidHostService: Relay self-test failed: failed to connect to /127.0.0.1 (port 31416) from /:: (port 39212): connect failed: ECONNREFUSED (Connection refused)
+10-13 01:33:06.823 24228 25556 I AndroidHostService: Relay self-test attempt 2/10
+10-13 01:33:06.826 24228 25556 W AndroidHostService: Relay self-test failed: failed to connect to /127.0.0.1 (port 31416) from /:: (port 39222): connect failed: ECONNREFUSED (Connection refused)
+10-13 01:33:06.927 24228 25556 I AndroidHostService: Relay self-test attempt 3/10
+10-13 01:33:06.931 24228 25556 W AndroidHostService: Relay self-test failed: failed to connect to /127.0.0.1 (port 31416) from /:: (port 39228): connect failed: ECONNREFUSED (Connection refused)
+10-13 01:33:07.032 24228 25556 I AndroidHostService: Relay self-test attempt 4/10
+10-13 01:33:07.039 24228 25556 W AndroidHostService: Relay self-test failed: failed to connect to /127.0.0.1 (port 31416) from /:: (port 39244): connect failed: ECONNREFUSED (Connection refused)
+10-13 01:33:07.140 24228 25556 I AndroidHostService: Relay self-test attempt 5/10
+10-13 01:33:07.144 24228 25556 W AndroidHostService: Relay self-test failed: failed to connect to /127.0.0.1 (port 31416) from /:: (port 39258): connect failed: ECONNREFUSED (Connection refused)
+10-13 01:33:07.244 24228 25556 I AndroidHostService: Relay self-test attempt 6/10
+10-13 01:33:07.249 24228 25556 W AndroidHostService: Relay self-test failed: failed to connect to /127.0.0.1 (port 31416) from /:: (port 39266): connect failed: ECONNREFUSED (Connection refused)
+10-13 01:33:07.350 24228 25556 I AndroidHostService: Relay self-test attempt 7/10
+10-13 01:33:07.353 24228 25556 W AndroidHostService: Relay self-test failed: failed to connect to /127.0.0.1 (port 31416) from /:: (port 39276): connect failed: ECONNREFUSED (Connection refused)
+10-13 01:33:07.402 24228 25556 E AndroidHostService: Host setup failed
+10-13 01:33:07.402 24228 25556 E AndroidHostService: java.lang.InterruptedException
+10-13 01:33:07.402 24228 25556 E AndroidHostService: 	at java.lang.Thread.sleep(Native Method)
+10-13 01:33:07.402 24228 25556 E AndroidHostService: 	at java.lang.Thread.sleep0(Thread.java:687)
+10-13 01:33:07.402 24228 25556 E AndroidHostService: 	at java.lang.Thread.sleep(Thread.java:665)
+10-13 01:33:07.402 24228 25556 E AndroidHostService: 	at java.lang.Thread.sleep(Thread.java:578)
+10-13 01:33:07.402 24228 25556 E AndroidHostService: 	at com.example.androidhostapp.AndroidHostService.verifyLocalRelay(AndroidHostService.kt:267)
+10-13 01:33:07.402 24228 25556 E AndroidHostService: 	at com.example.androidhostapp.AndroidHostService.startHost(AndroidHostService.kt:198)
+10-13 01:33:07.402 24228 25556 E AndroidHostService: 	at com.example.androidhostapp.AndroidHostService.startWorker$lambda$0(AndroidHostService.kt:152)
+10-13 01:33:07.402 24228 25556 E AndroidHostService: 	at com.example.androidhostapp.AndroidHostService.$r8$lambda$OJPH9UXAHEKfUbivDHoxG32Uscg(AndroidHostService.kt:0)
+10-13 01:33:07.402 24228 25556 E AndroidHostService: 	at com.example.androidhostapp.AndroidHostService$$ExternalSyntheticLambda7.run(D8$$SyntheticClass:0)
+10-13 01:33:07.402 24228 25556 E AndroidHostService: 	at java.lang.Thread.run(Thread.java:1571)
+10-13 01:33:07.863 24228 25561 I AndroidHostService: Hostネットワーク=Wi-Fi INTERNET=true VALIDATED=true
+10-13 01:33:07.868 24228 25562 I AndroidHostService: Starting local relay on 127.0.0.1:31416
+10-13 01:33:07.871 24228 25562 I Relay   : Relay server started
+10-13 01:33:07.871 24228 25561 I AndroidHostService: Relay startup latch released
+10-13 01:33:07.871 24228 25561 I AndroidHostService: Relay startup failure check passed
+10-13 01:33:07.871 24228 25561 I AndroidHostService: Relay self-test attempt 1/10
+10-13 01:33:07.873 24228 25561 W AndroidHostService: Relay self-test failed: failed to connect to /127.0.0.1 (port 31416) from /:: (port 39292): connect failed: ECONNREFUSED (Connection refused)
+10-13 01:33:07.973 24228 25561 I AndroidHostService: Relay self-test attempt 2/10
+10-13 01:33:07.976 24228 25561 W AndroidHostService: Relay self-test failed: failed to connect to /127.0.0.1 (port 31416) from /:: (port 39304): connect failed: ECONNREFUSED (Connection refused)
+10-13 01:33:08.077 24228 25561 I AndroidHostService: Relay self-test attempt 3/10
+10-13 01:33:08.080 24228 25561 W AndroidHostService: Relay self-test failed: failed to connect to /127.0.0.1 (port 31416) from /:: (port 39312): connect failed: ECONNREFUSED (Connection refused)
+10-13 01:33:08.181 24228 25561 I AndroidHostService: Relay self-test attempt 4/10
+10-13 01:33:08.183 24228 25561 W AndroidHostService: Relay self-test failed: failed to connect to /127.0.0.1 (port 31416) from /:: (port 39320): connect failed: ECONNREFUSED (Connection refused)
+10-13 01:33:08.283 24228 25561 I AndroidHostService: Relay self-test attempt 5/10
+10-13 01:33:08.287 24228 25561 W AndroidHostService: Relay self-test failed: failed to connect to /127.0.0.1 (port 31416) from /:: (port 39336): connect failed: ECONNREFUSED (Connection refused)
+10-13 01:33:08.388 24228 25561 I AndroidHostService: Relay self-test attempt 6/10
+10-13 01:33:08.392 24228 25561 W AndroidHostService: Relay self-test failed: failed to connect to /127.0.0.1 (port 31416) from /:: (port 39346): connect failed: ECONNREFUSED (Connection refused)
+10-13 01:33:08.492 24228 25561 I AndroidHostService: Relay self-test attempt 7/10
+10-13 01:33:08.497 24228 25561 W AndroidHostService: Relay self-test failed: failed to connect to /127.0.0.1 (port 31416) from /:: (port 39348): connect failed: ECONNREFUSED (Connection refused)
+10-13 01:33:08.598 24228 25561 I AndroidHostService: Relay self-test attempt 8/10
+10-13 01:33:08.606 24228 25561 W AndroidHostService: Relay self-test failed: failed to connect to /127.0.0.1 (port 31416) from /:: (port 39350): connect failed: ECONNREFUSED (Connection refused)
+10-13 01:33:08.707 24228 25561 I AndroidHostService: Relay self-test attempt 9/10
+10-13 01:33:08.714 24228 25561 W AndroidHostService: Relay self-test failed: failed to connect to /127.0.0.1 (port 31416) from /:: (port 39352): connect failed: ECONNREFUSED (Connection refused)
+10-13 01:33:08.816 24228 25561 I AndroidHostService: Relay self-test attempt 10/10
+10-13 01:33:08.824 24228 25561 W AndroidHostService: Relay self-test failed: failed to connect to /127.0.0.1 (port 31416) from /:: (port 39354): connect failed: ECONNREFUSED (Connection refused)
+10-13 01:33:08.929 24228 25561 E AndroidHostService: Host setup failed
+10-13 01:33:08.929 24228 25561 E AndroidHostService: java.io.IOException: Host内relay tcp:31416へ接続できません: failed to connect to /127.0.0.1 (port 31416) from /:: (port 39354): connect failed: ECONNREFUSED (Connection refused)
+10-13 01:33:08.929 24228 25561 E AndroidHostService: 	at com.example.androidhostapp.AndroidHostService.verifyLocalRelay(AndroidHostService.kt:271)
+10-13 01:33:08.929 24228 25561 E AndroidHostService: 	at com.example.androidhostapp.AndroidHostService.startHost(AndroidHostService.kt:198)
+10-13 01:33:08.929 24228 25561 E AndroidHostService: 	at com.example.androidhostapp.AndroidHostService.startWorker$lambda$0(AndroidHostService.kt:152)
+10-13 01:33:08.929 24228 25561 E AndroidHostService: 	at com.example.androidhostapp.AndroidHostService.$r8$lambda$OJPH9UXAHEKfUbivDHoxG32Uscg(AndroidHostService.kt:0)
+10-13 01:33:08.929 24228 25561 E AndroidHostService: 	at com.example.androidhostapp.AndroidHostService$$ExternalSyntheticLambda7.run(D8$$SyntheticClass:0)
+10-13 01:33:08.929 24228 25561 E AndroidHostService: 	at java.lang.Thread.run(Thread.java:1571)
+10-13 01:33:08.929 24228 25561 E AndroidHostService: Caused by: java.net.ConnectException: failed to connect to /127.0.0.1 (port 31416) from /:: (port 39354): connect failed: ECONNREFUSED (Connection refused)
+10-13 01:33:08.929 24228 25561 E AndroidHostService: 	at libcore.io.IoBridge.connect(IoBridge.java:184)
+10-13 01:33:08.929 24228 25561 E AndroidHostService: 	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:142)
+10-13 01:33:08.929 24228 25561 E AndroidHostService: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:390)
+10-13 01:33:08.929 24228 25561 E AndroidHostService: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:230)
+10-13 01:33:08.929 24228 25561 E AndroidHostService: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:212)
+10-13 01:33:08.929 24228 25561 E AndroidHostService: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:436)
+10-13 01:33:08.929 24228 25561 E AndroidHostService: 	at java.net.Socket.connect(Socket.java:646)
+10-13 01:33:08.929 24228 25561 E AndroidHostService: 	at java.net.Socket.connect(Socket.java:595)
+10-13 01:33:08.929 24228 25561 E AndroidHostService: 	at java.net.Socket.<init>(Socket.java:475)
+10-13 01:33:08.929 24228 25561 E AndroidHostService: 	at java.net.Socket.<init>(Socket.java:243)
+10-13 01:33:08.929 24228 25561 E AndroidHostService: 	at com.example.androidhostapp.AndroidHostService.verifyLocalRelay(AndroidHostService.kt:260)
+10-13 01:33:08.929 24228 25561 E AndroidHostService: 	... 5 more
+10-13 01:33:08.929 24228 25561 E AndroidHostService: Caused by: android.system.ErrnoException: connect failed: ECONNREFUSED (Connection refused)
+10-13 01:33:08.929 24228 25561 E AndroidHostService: 	at libcore.io.Linux.connect(Native Method)
+10-13 01:33:08.929 24228 25561 E AndroidHostService: 	at libcore.io.ForwardingOs.connect(ForwardingOs.java:167)
+10-13 01:33:08.929 24228 25561 E AndroidHostService: 	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:158)
+10-13 01:33:08.929 24228 25561 E AndroidHostService: 	at libcore.io.ForwardingOs.connect(ForwardingOs.java:167)
+10-13 01:33:08.929 24228 25561 E AndroidHostService: 	at libcore.io.IoBridge.connectErrno(IoBridge.java:198)
+10-13 01:33:08.929 24228 25561 E AndroidHostService: 	at libcore.io.IoBridge.connect(IoBridge.java:176)
+10-13 01:33:08.929 24228 25561 E AndroidHostService: 	... 15 more
